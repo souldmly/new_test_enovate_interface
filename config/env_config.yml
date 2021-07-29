@@ -1,0 +1,2 @@
+host:
+  url: http://122.112.167.115:8901/api/app/user/banner/getBannerListByChannelId
