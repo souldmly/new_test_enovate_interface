@@ -7,8 +7,9 @@ if __name__ == '__main__':
     pytest.main(['--alluredir', './report/temp'])
     # 执行命令 allure generate ./temp -o ./report --clean ，生成测试报告
     os.system('allure generate --clean ./report/temp -o ./report/report')
+    print("这是测试111111111111111111111111111")
 
-    # pytest.main()
+    # pytest.main()=
     # mail_content = {
     #     "subject": "哈哈",
     #     "content_text": "测试测试,测试报告链接为\nhttp://localhost:63342/new_test_enovate_interface/report/report/index.html",
