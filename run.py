@@ -1,7 +1,10 @@
-import os
+import sys
+sys.path.append(r"E:\自动化\new_enovate_interface_auto")
 
+import os
 import pytest
 import zmail
+
 
 if __name__ == '__main__':
     # 执行pytest单元测试，生成 Allure 报告需要的数据存在 report/temp 目录

@@ -20,6 +20,7 @@ def test_banner(env_config):
 
 if __name__ == '__main__':
     pytest.main(["-s", "test_KvBanner.py"])
+    # 指定运行test_KvBanner.py文件
 
 
 
