@@ -1,4 +1,5 @@
-import base
+import sys
+sys.path.append(r'E:\自动化\new_enovate_interface_auto')
 import os
 import pytest
 import zmail
