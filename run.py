@@ -1,6 +1,9 @@
-import sys
-sys.path.append(r'E:\自动化\new_enovate_interface_auto')
 import os
+import sys
+dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(dir)
+sys.path.append(r"E:\自动化\new_enovate_interface_auto")
+
 import pytest
 import zmail
 
