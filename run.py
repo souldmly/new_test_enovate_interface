@@ -2,7 +2,7 @@ import os
 import sys
 dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(dir)
-sys.path.append(r"E:\自动化\new_enovate_interface_auto")
+sys.path.append(r"D:\python\python-3.9.6-embed-amd64")
 
 import pytest
 import zmail
