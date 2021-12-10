@@ -1,0 +1,11 @@
+tests:
+  - case: 试驾门店
+    http:
+      method: post
+      path: http://122.112.167.115:8901/api/app/user/store/queryStoreList
+      headers:
+        content-type: application/json
+      parameters: {"storeType":"SALEADDRESS","testDriveFlag":"1"}
+    expected:
+      response:
+        status: 200

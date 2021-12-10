@@ -1,0 +1,13 @@
+tests:
+  - case: 下单配置
+    http:
+      method: post
+      path: http://122.112.167.115:8901/api/app/order/vehicleVersion/vehicleAllConfigList
+      headers:
+        content-type: application/json
+      prameters:
+        - {'seriesId': '731439025239359488'}
+        - {'seriesId': '824945912135548935'}
+    expected:
+      response:
+        statuscode: 200
